@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="overlay">
+        <div id="start">
+            <img src="./cover-removebg-preview.png" alt="">
+            <button id="start-btn" >Start</button>
+        </div>
+        <div id="win">
+            <div id="text">
+                <h1>GAME-OVER</h1>
+                <div id="score-box">
+                    <h2>score</h2>
+                    <h2 id="win-score">0</h2>
+                </div>
+                <button id="start_again" onClick="window.location.reload(true)">Start Again</button>
+            </div>
+        </div>
+    <div id="main">      
+        <div id="box">
+            <div id="nav">
+                <div class="score">
+                    <h3>score:</h3>
+                    <div class="sq">
+                        <h2 id="score_no">0</h2>
+                    </div>
+                </div>
+                <div class="score">
+                    <h3>Timer:</h3>
+                    <div class="sq">
+                        <h2 id="timer_no">60</h2>
+                    </div>
+                </div>
+                <div class="score">
+                    <h3>Hit:</h3>
+                    <div class="sq">
+                        <h2 id="hit_no">8</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="box-circle">
+                <div class="circle">
+                    <h2></h2>
+                </div>
+            </div>
+        </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
